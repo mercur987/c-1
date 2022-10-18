@@ -21,7 +21,7 @@ int main()
 	stdWeight = STD_BMI * height * height;
 	bmi = weight / height / height;
 	cout << "あなたのBMIは、" << bmi << "です" << endl;
-	if (bmi > 18.5) {
+	if (bmi < 18.5) {
 		cout << "低体重です" << endl;
 	}
 	else if (18.5 <= bmi < 25) {
